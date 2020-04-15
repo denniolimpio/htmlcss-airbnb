@@ -58,7 +58,7 @@
 }
 
 
-h1 {
+h2 {
   color: white;
   font-family: 'Montserrat', sans-serif;
   font-size: 100px;
@@ -68,7 +68,7 @@ h1 {
 
 /* allineamento testo */
 
-.box .text h1 {
+.box .text h2 {
   position: absolute;
   top: 50%;
   left: 50%;
