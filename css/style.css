@@ -1,0 +1,78 @@
+/* inizio reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fine reset */
+
+.contenitor {
+  height: 100vh;
+  width: 100%;
+
+}
+/* box rule */
+.box {
+  border: 20px solid white;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* fine box rule */
+
+/* box specifici */
+.roma {
+  background-image: url(../img/roma.jpg);
+}
+
+.napoli {
+  background-image: url(../img/napoli.jpg);
+}
+
+.milano {
+  background-image: url(../img/milano.jpg);
+}
+.torino {
+  background-image: url(../img/torino.jpeg);
+}
+.firenze {
+  background-image: url(../img/firenze.jpg);
+}
+.venezia {
+  background-image: url(../img/venezia.jpg);
+}
+.palermo {
+  background-image: url(../img/palermo.jpg);
+}
+/* fine box specifici */
+
+/* text regole, opacità  */
+
+.contenitor .box .text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  text-shadow: 5px 5px 10px #000;
+}
+/* fine text regole, opacità  */
+
+/* allineamento testo */
+
+.box .text h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* fine allineamento testo */
